@@ -8,6 +8,9 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/">設置畫布</RouterLink>
       <RouterLink to="/bg">背景圖片</RouterLink>
       <RouterLink to="/shape">基本圖形</RouterLink>
+      <RouterLink to="/path">繪製路徑</RouterLink>
+      <RouterLink to="/text">文本</RouterLink>
+      <RouterLink to="/style">基本樣式</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>

@@ -18,6 +18,21 @@ const router = createRouter({
       name: 'shape',
       component: () => import('../views/FabricShape.vue'),
     },
+    {
+      path: '/path',
+      name: 'path',
+      component: () => import('../views/FabricPath.vue'),
+    },
+    {
+      path: '/text',
+      name: 'text',
+      component: () => import('../views/FabricText.vue'),
+    },
+    {
+      path: '/style',
+      name: 'style',
+      component: () => import('../views/FabricStyle.vue'),
+    },
   ],
 })
 
