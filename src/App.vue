@@ -11,6 +11,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/path">繪製路徑</RouterLink>
       <RouterLink to="/text">文本</RouterLink>
       <RouterLink to="/style">基本樣式</RouterLink>
+      <RouterLink to="/gradient">漸變</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>

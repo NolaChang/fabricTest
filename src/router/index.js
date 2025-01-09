@@ -33,6 +33,11 @@ const router = createRouter({
       name: 'style',
       component: () => import('../views/FabricStyle.vue'),
     },
+    {
+      path: '/gradient',
+      name: 'gradient',
+      component: () => import('../views/FabricGradient.vue'),
+    },
   ],
 })
 
