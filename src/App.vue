@@ -1,24 +1,33 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+const list = [
+  { link: '/', title: '設置畫布' },
+  { link: '/bg', title: '背景圖片' },
+  { link: '/shape', title: '基本圖形' },
+  { link: '/path', title: '繪製路徑' },
+  { link: '/text', title: '文本' },
+  { link: '/style', title: '基本樣式' },
+  { link: '/gradient', title: '漸變' },
+  { link: '/useImage', title: '使用圖片' },
+  { link: '/filter', title: '圖片濾鏡' },
+  { link: '/transform', title: '轉換' },
+  { link: '/group', title: '群組' },
+  { link: '/animate', title: '動畫' },
+  { link: '/event', title: '事件' },
+  { link: '/draw', title: '自由繪畫' },
+  { link: '/lock', title: '禁止部分操作' },
+  { link: '/scaleCanvas', title: '縮放畫布' },
+  { link: '/moveCanvas', title: '平移畫布' },
+  { link: '/select', title: '選中狀態' },
+]
 </script>
 
 <template>
   <div class="wrapper ml-15">
     <nav>
-      <RouterLink to="/">設置畫布</RouterLink>
-      <RouterLink to="/bg">背景圖片</RouterLink>
-      <RouterLink to="/shape">基本圖形</RouterLink>
-      <RouterLink to="/path">繪製路徑</RouterLink>
-      <RouterLink to="/text">文本</RouterLink>
-      <RouterLink to="/style">基本樣式</RouterLink>
-      <RouterLink to="/gradient">漸變</RouterLink>
-      <RouterLink to="/useImage">使用圖片</RouterLink>
-      <RouterLink to="/filter">圖片濾鏡</RouterLink>
-      <RouterLink to="/transform">轉換</RouterLink>
-      <RouterLink to="/group">群組</RouterLink>
-      <RouterLink to="/animate">動畫</RouterLink>
-      <RouterLink to="/event">事件</RouterLink>
-      <RouterLink to="/draw">自由繪畫</RouterLink>
+      <RouterLink v-for="item in list" :to="item.link" :key="item.link">{{
+        item.title
+      }}</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>

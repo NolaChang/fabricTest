@@ -73,6 +73,26 @@ const router = createRouter({
       name: 'draw',
       component: () => import('../views/Draw.vue'),
     },
+    {
+      path: '/lock',
+      name: 'lock',
+      component: () => import('../views/Lock.vue'),
+    },
+    {
+      path: '/scaleCanvas',
+      name: 'scaleCanvas',
+      component: () => import('../views/ScaleCanvas.vue'),
+    },
+    {
+      path: '/moveCanvas',
+      name: 'moveCanvas',
+      component: () => import('../views/MoveCanvas.vue'),
+    },
+    {
+      path: '/select',
+      name: 'select',
+      component: () => import('../views/Select.vue'),
+    },
   ],
 })
 
