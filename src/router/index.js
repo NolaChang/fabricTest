@@ -93,6 +93,21 @@ const router = createRouter({
       name: 'select',
       component: () => import('../views/Select.vue'),
     },
+    {
+      path: '/clip',
+      name: 'clip',
+      component: () => import('../views/Clip.vue'),
+    },
+    {
+      path: '/serialize',
+      name: 'serialize',
+      component: () => import('../views/Serialize.vue'),
+    },
+    {
+      path: '/unserialize',
+      name: 'unserialize',
+      component: () => import('../views/Unserialize.vue'),
+    },
   ],
 })
 

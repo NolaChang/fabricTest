@@ -19,6 +19,9 @@ const list = [
   { link: '/scaleCanvas', title: '縮放畫布' },
   { link: '/moveCanvas', title: '平移畫布' },
   { link: '/select', title: '選中狀態' },
+  { link: '/clip', title: '裁剪' },
+  { link: '/serialize', title: '序列化' },
+  { link: '/unserialize', title: '反序列化' },
 ]
 </script>
 

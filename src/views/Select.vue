@@ -49,7 +49,7 @@ const init = () => {
   })
   // 元素禁止選中
   rect.selectable = false
-  canvas.add(rect) // 將矩形和圓形添加到畫布中
+  canvas.add(rect)
   // ---------------------------
 
   const canvas2 = new fabric.Canvas('c2')
