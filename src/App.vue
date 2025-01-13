@@ -12,6 +12,9 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/text">文本</RouterLink>
       <RouterLink to="/style">基本樣式</RouterLink>
       <RouterLink to="/gradient">漸變</RouterLink>
+      <RouterLink to="/useImage">使用圖片</RouterLink>
+      <RouterLink to="/filter">圖片濾鏡</RouterLink>
+      <RouterLink to="/transform">轉換</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>
@@ -21,7 +24,7 @@ import { RouterLink, RouterView } from 'vue-router'
 <style scoped>
 nav {
   width: 100%;
-  font-size: 12px;
+  font-size: 16px;
   text-align: center;
   margin-top: 2rem;
 }
@@ -48,7 +51,6 @@ nav a:first-of-type {
   header {
     display: flex;
     place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
   }
 
   .logo {

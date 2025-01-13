@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-flow-row grid-cols-3 p-18 gap-8">
+  <div class="flex flex-wrap p-18 gap-20">
     <div>
       <p>使用背景圖</p>
       <canvas width="400" height="400" id="c1" style="border: 1px solid #ccc"></canvas>

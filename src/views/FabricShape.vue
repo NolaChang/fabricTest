@@ -1,5 +1,5 @@
 <template>
-  <div class="grid grid-flow-row grid-cols-4 p-18 gap-8">
+  <div class="flex flex-wrap p-18 gap-20">
     <div>
       <p>矩形</p>
       <canvas width="250" height="250" id="c1" style="border: 1px solid #ccc"></canvas>

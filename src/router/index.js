@@ -38,6 +38,21 @@ const router = createRouter({
       name: 'gradient',
       component: () => import('../views/FabricGradient.vue'),
     },
+    {
+      path: '/useImage',
+      name: 'useImage',
+      component: () => import('../views/FabricUseImage.vue'),
+    },
+    {
+      path: '/filter',
+      name: 'filter',
+      component: () => import('../views/FabricFilter.vue'),
+    },
+    {
+      path: '/transform',
+      name: 'transform',
+      component: () => import('../views/FabricTransform.vue'),
+    },
   ],
 })
 
