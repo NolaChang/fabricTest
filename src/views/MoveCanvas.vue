@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-wrap p-18 gap-20">
     <div>
-      <p>平移畫布</p>
+      <p>平移畫布 (按Alt+滑鼠點擊移動)</p>
       <canvas width="400" height="400" id="c1" style="border: 1px solid #ccc"></canvas>
     </div>
   </div>
