@@ -53,6 +53,21 @@ const router = createRouter({
       name: 'transform',
       component: () => import('../views/FabricTransform.vue'),
     },
+    {
+      path: '/group',
+      name: 'group',
+      component: () => import('../views/FabricGroup.vue'),
+    },
+    {
+      path: '/animate',
+      name: 'animate',
+      component: () => import('../views/FabricAnimate.vue'),
+    },
+    {
+      path: '/event',
+      name: 'event',
+      component: () => import('../views/FabricEvent.vue'),
+    },
   ],
 })
 

@@ -15,6 +15,9 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/useImage">使用圖片</RouterLink>
       <RouterLink to="/filter">圖片濾鏡</RouterLink>
       <RouterLink to="/transform">轉換</RouterLink>
+      <RouterLink to="/group">群組</RouterLink>
+      <RouterLink to="/animate">動畫</RouterLink>
+      <RouterLink to="/event">事件</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>
@@ -26,7 +29,7 @@ nav {
   width: 100%;
   font-size: 16px;
   text-align: center;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 nav a.router-link-exact-active {
