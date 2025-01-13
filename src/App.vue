@@ -18,6 +18,7 @@ import { RouterLink, RouterView } from 'vue-router'
       <RouterLink to="/group">群組</RouterLink>
       <RouterLink to="/animate">動畫</RouterLink>
       <RouterLink to="/event">事件</RouterLink>
+      <RouterLink to="/draw">自由繪畫</RouterLink>
       <!-- <RouterLink to="/about">About</RouterLink> -->
     </nav>
   </div>
